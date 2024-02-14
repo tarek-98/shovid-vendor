@@ -1,0 +1,94 @@
+/*user login*/
+:root {
+  --main-color: #1f9ec4;
+  --orange-color: #f39535;
+  --blue-color: #4b76b8;
+  --dark-color: #001c48;
+  --gray-color: #f5f5f5;
+  --danger-color: #f78585;
+  --main-transition: 0.3s;
+}
+
+.home-signup {
+  padding: 0 10px;
+  margin-top: 4rem;
+  padding-bottom: 50px;
+
+}
+
+.box-signup {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 40px;
+  position: relative;
+  direction: rtl;
+  border: 1px solid var(--blue-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.box-signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-signup form label {
+  margin-bottom: 5px;
+}
+
+.box-signup form input {
+  margin-bottom: 15px;
+  padding: 3px 15px;
+  border: 1px solid var(--blue-color);
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.box-signup .terms-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-signup .submit a {
+  text-decoration: none;
+  padding: 5px 15px;
+  background-color: var(--blue-color);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/*otp*/
+.home-otp {
+  text-align: center;
+  padding: 0 10px;
+  margin-top: 4rem;
+}
+
+.home-otp .box-otp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-otp .otp {
+  display: flex;
+  justify-content: space-between;
+}
